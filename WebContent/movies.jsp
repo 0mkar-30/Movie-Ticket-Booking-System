@@ -90,7 +90,7 @@
                 for (Movie m : movies) {
         %>
 
-   <%-- 
+  
         <div class="movie-card">
             <div class="movie-title"><%= m.getName() %></div>
 
@@ -100,7 +100,7 @@
 
             <a href="shows?movieId=<%= m.getId() %>" class="btn">Book Now</a>
         </div>
-     --%>
+
 
         <%  }
             } else {
